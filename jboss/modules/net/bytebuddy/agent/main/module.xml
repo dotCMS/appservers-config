@@ -22,7 +22,7 @@
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
 
-<module xmlns="urn:jboss:module:1.1" name="net.bytebuddy">
+<module xmlns="urn:jboss:module:1.1" name="net.bytebuddy.agent">
 
     <properties>
         <property name="jboss.api" value="unsupported"/>
@@ -33,6 +33,7 @@
         <!-- Insert resources here -->
     </resources>
     <dependencies>
+        <!--<module name="net.bytebuddy"/>-->
         <module name="javax.api"/>
         <module name="javax.transaction.api"/>
         <module name="javax.servlet.api" optional="true"/>
