@@ -22,14 +22,14 @@
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
 
-<module xmlns="urn:jboss:module:1.1" name="com.dotcms.mssql">
+<module xmlns="urn:jboss:module:1.5" name="com.dotcms.mssql">
 
     <properties>
         <property name="jboss.api" value="unsupported"/>
     </properties>
 
     <resources>
-        <resource-root path="jtds-1.2.2.jar"/>
+        <resource-root path="mssql-jdbc-6.2.2.jre8.jar"/>
         <!-- Insert resources here -->
     </resources>
     <dependencies>
